@@ -1,38 +1,54 @@
 :root {
-    --primary-text-color :black
-    --title-text-color :#000000
-    --accent-color :rgb(127, 255, 191)
+    --primary-text-color :#212121;
+    --accent-color :#2196F3;
 }
 
 body{
-    background-color: white;
+    background-color: #F5F5F5;
     }
 
 .list {
     list-style: none;
 }
 
-.test-link {
-    color: rgb(127, 255, 191);
+.first-part {
+    color: var(--accent-color);
 }
 
-.test-link:hover,
-.test-link:focus {
-    color: black;
+.last-part {
+    color: var(--primary-text-color);
 }
 
- .test-link:active {
-    color: rgb(119, 0, 255);
- }
+.logo :hover {
+    color:var(--accent-color);
+}
+
+
 
  /* Site nav */
 
- .site-navi a {
-    color: rgb(255, 0, 179);
+ .site-nav a {
+    color:var(--primary-text-color);
+}
+
+ .site-nav :hover, 
+ .site-nav :focus {
+    color: var(--accent-color);
  }
 
- .site-navi :hover, 
- .site-navi :focus {
+ .button-hero {
+    color: #ffffff;
+    background-color: var(--accent-color);
+}
+
+.button-main {
     color: var(--primary-text-color);
- }
+    background-color: #F5F4FA;
+}
+
+.button-main :hover {
+    background-color: var(--accent-color);
+}
+
+
 
